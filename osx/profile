@@ -1,0 +1,24 @@
+
+# MacPorts Installer addition on 2010-11-22_at_00:08:37: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/Users/yigit/visit/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+alias ll="ls -l"
+alias la="ls -a"
+
+test -r /sw/bin/init.sh && . /sw/bin/init.sh
+export PATH=/opt/subversion/bin:$PATH
+export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Home
+export NXJ_HOME=/Users/yigit/lejos_nxj
+export DYLD_LIBRARY_PATH=$NXJ_HOME/bin
+export PATH=$PATH:$JAVA_HOME/bin:$NXJ_HOME/bin
+
+##
+# Your previous /Users/yigit/.profile file was backed up as /Users/yigit/.profile.macports-saved_2012-04-04_at_22:31:56
+##
+
+# MacPorts Installer addition on 2012-04-04_at_22:31:56: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+export M2_HOME=/usr/share/maven/
+. /sw2/bin/init.sh
